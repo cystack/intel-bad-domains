@@ -1,0 +1,12 @@
+- app: Zalo
+  domains:
+    - tt-files-wpa.chat.zalo.me
+
+- app: Telegram
+  domains:
+    - api.telegram.org
+
+- app: Discord
+  domains:
+    - cdn.discordapp.com
+    - media.discordapp.net
