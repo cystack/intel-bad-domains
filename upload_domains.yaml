@@ -10,3 +10,30 @@
   domains:
     - cdn.discordapp.com
     - media.discordapp.net
+
+- app: Cloudflare
+  domains:
+    - r2.cloudflarestorage.com
+    - dash.cloudflare.com
+
+- app: Fshare
+  domains:
+    - up.fshare.vn
+
+- app: Slack
+  domains:
+    - files.slack.com
+
+- app: Google Drive
+  domains:
+    - clients6.google.com
+
+- app: Onedrive
+  domains:
+    - res-1.public.onecdn.static.microsoft
+    - sharepoint.com
+
+- app: Mediafire
+  domains:
+    - mediafireuserupload.com
+    - mediafire.com
