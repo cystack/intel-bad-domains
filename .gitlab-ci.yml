@@ -1,0 +1,11 @@
+stages:
+  - deploy
+
+trigger_endpoint/safenet:
+  stage: deploy
+  trigger:
+    project: endpoint/safenet
+    branch: main
+  only:
+    - main
+    - tags
