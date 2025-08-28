@@ -1,0 +1,5 @@
+amazon.com
+ebay.com
+etsy.com
+shopify.com
+walmart.com
