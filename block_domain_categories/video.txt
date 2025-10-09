@@ -1,10 +1,4 @@
 googlevideo.com
-netflix.com
-netflix.net
-nflxext.com
-nflximg.net
-nflxso.net
-nflxvideo.net
 youtu.be
 youtube-nocookie.com
 youtube.be
@@ -20,4 +14,7 @@ youtubegaming.com
 youtubei.googleapis.com
 youtubekids.com
 yt3.ggpht.com
-ytimg.com
+netflix.com
+netflix.net
+nflxext.com
+nflxvideo.net
