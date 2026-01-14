@@ -2,7 +2,7 @@
   "google": "accounts.google.com",
   "microsoft": "login.microsoftonline.com",
   "apple": "appleid.apple.com",
-  "facebook": "www.facebook.com",
+  "facebook": "facebook.com",
   "github": "github.com",
   "zalo": "oauth.zaloapp.com"
 }
