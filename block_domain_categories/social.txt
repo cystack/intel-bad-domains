@@ -601,3 +601,5 @@ lithium.facebook.com
 lookaside.facebook.com
 m.facebook.com
 www.facebook.com
+www.threads.com
+threads.com
