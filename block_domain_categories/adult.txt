@@ -12829,7 +12829,6 @@ delivery.kabbmedia.com
 images.kabbmedia.com
 app.harafunnel.com
 app.haraloyalty.com
-app.harasocial.com
 apps.haraads.com
 assets.harafunnel.com
 combo-omni.haravan.com
