@@ -1,38 +1,296 @@
-- app: Zalo
+- app: Outlook
+  id: outlook
+  available: true
+  category: email
   domains:
+    - dcmcmlbmpsc.outlook.office.com
+  root_domains:
+    - outlook.office.com
+    - outlook.live.com
+    - outlook.office365.com
+    - outlook.cloud.microsoft
+  upload_domains:
+    - dcmcmlbmpsc.outlook.office.com
+
+- app: BaseVN
+  id: basevn
+  available: true
+  category: work_collaboration
+  domains:
+    - dcmcmlbmpsc.base.vn
+  root_domains:
+    - base.vn
+  upload_domains:
+    - dcmcmlbmpsc.base.vn
+
+- app: Salework
+  id: salework
+  available: true
+  category: work_collaboration
+  domains:
+    - dcmcmlbmpsc.salework.net
+  root_domains:
+    - zalo.salework.net
+  upload_domains:
+    - dcmcmlbmpsc.salework.net
+
+- app: Slack
+  id: slack
+  available: true
+  category: chat_application
+  domains:
+    - files.slack.com
+  root_domains:
+    - app.slack.com
+  upload_domains:
+    - files.slack.com
+
+- app: Zalo
+  id: zalo
+  available: true
+  category: chat_application
+  domains:
+    - tt-files-wpa.chat.zalo.me
+  root_domains:
+    - chat.zalo.me
+  upload_domains:
     - tt-files-wpa.chat.zalo.me
 
 - app: Telegram
+  id: telegram
+  available: true
+  category: chat_application
   domains:
+    - api.telegram.org
+  root_domains:
+    - telegram.org
+    - t.me
+    - web.telegram.org
+  upload_domains:
     - api.telegram.org
 
 - app: Discord
+  id: discord
+  available: true
+  category: chat_application
   domains:
     - cdn.discordapp.com
     - media.discordapp.net
-
-- app: Cloudflare
-  domains:
-    - r2.cloudflarestorage.com
-    - dash.cloudflare.com
-
-- app: Fshare
-  domains:
-    - up.fshare.vn
-
-- app: Slack
-  domains:
-    - files.slack.com
+  root_domains:
+    - discord.com
+    - discordapp.com
+  upload_domains:
+    - cdn.discordapp.com
+    - media.discordapp.net
 
 - app: Google Drive
+  id: google_drive
+  available: true
+  category: storage_application
   domains:
     - clients6.google.com
+  root_domains:
+    - clients6.google.com
+    - drive.google.com
+  upload_domains:
+    - clients6.google.com
 
-- app: Onedrive
+- app: OneDrive
+  id: onedrive
+  available: true
+  category: storage_application
   domains:
+    - res-1.public.onecdn.static.microsoft
+    - sharepoint.com
+  root_domains:
+    - sharepoint.com
+    - onedrive.live.com
+  upload_domains:
     - res-1.public.onecdn.static.microsoft
     - sharepoint.com
 
 - app: Mediafire
+  id: mediafire
+  available: true
+  category: storage_application
   domains:
     - mediafireuserupload.com
+    - mediafire.com
+  root_domains:
+    - mediafire.com
+    - mediafireuserupload.com
+  upload_domains:
+    - mediafireuserupload.com
+    - mediafire.com
+
+- app: Cloudflare
+  id: cloudflare
+  available: true
+  category: storage_application
+  domains:
+    - r2.cloudflarestorage.com
+    - dash.cloudflare.com
+  root_domains:
+    - cloudflare.com
+  upload_domains:
+    - r2.cloudflarestorage.com
+    - dash.cloudflare.com
+
+- app: Fshare
+  id: fshare
+  available: true
+  category: storage_application
+  domains:
+    - up.fshare.vn
+  root_domains:
+    - fshare.vn
+  upload_domains:
+    - up.fshare.vn
+
+- app: Facebook
+  id: facebook
+  available: true
+  category: chat_application
+  domains:
+    - dcmcmlbmpsc.facebook.com
+  root_domains:
+    - facebook.com
+    - fb.com
+  upload_domains:
+    - dcmcmlbmpsc.facebook.com
+
+- app: UltraViewer
+  id: ultraviewer
+  available: true
+  category: work_collaboration
+  domains:
+    - dcmcmlbmpsc.ultraviewer.net
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.ultraviewer.net
+
+- app: WhatsApp
+  id: whatsapp
+  available: true
+  category: chat_application
+  domains:
+    - dcmcmlbmpsc.whatsapp.com
+  root_domains:
+    - web.whatsapp.com
+  upload_domains:
+    - dcmcmlbmpsc.whatsapp.com
+
+- app: Viber
+  id: viber
+  available: true
+  category: chat_application
+  domains:
+    - dcmcmlbmpsc.viber.com
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.viber.com
+
+- app: Signal
+  id: signal
+  available: true
+  category: chat_application
+  domains:
+    - dcmcmlbmpsc.signal.org
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.signal.org
+
+- app: Chatwork
+  id: chatwork
+  available: true
+  category: chat_application
+  domains:
+    - dcmcmlbmpsc.chatwork.com
+  root_domains:
+    - chatwork.com
+    - www.chatwork.com
+  upload_domains:
+    - dcmcmlbmpsc.chatwork.com
+
+- app: iCloud
+  id: icloud
+  available: true
+  category: storage_application
+  domains:
+    - dcmcmlbmpsc.icloud.com
+  root_domains:
+    - icloud.com
+    - www.icloud.com
+  upload_domains:
+    - dcmcmlbmpsc.icloud.com
+
+- app: Mega
+  id: mega
+  available: true
+  category: storage_application
+  domains:
+    - dcmcmlbmpsc.mega.io
+  root_domains:
+    - mega.io
+    - mega.nz
+  upload_domains:
+    - dcmcmlbmpsc.mega.io
+
+- app: Zoom
+  id: zoom
+  available: true
+  category: work_collaboration
+  domains:
+    - dcmcmlbmpsc.zoom.com
+  root_domains:
+    - zoom.com
+    - zoom.us
+    - app.zoom.us
+    - app.zoom.com
+  upload_domains:
+    - dcmcmlbmpsc.zoom.com
+
+- app: Teamviewer
+  id: teamviewer
+  available: true
+  category: work_collaboration
+  domains:
+    - dcmcmlbmpsc.teamviewer.com
+  root_domains:
+    - web.teamviewer.com
+  upload_domains:
+    - dcmcmlbmpsc.teamviewer.com
+
+- app: Teams
+  id: ms_teams
+  available: true
+  category: work_collaboration
+  domains:
+    - dcmcmlbmpsc.teams.microsoft.com
+  root_domains:
+    - teams.live.com
+    - teams.microsoft.com
+  upload_domains:
+    - dcmcmlbmpsc.teams.microsoft.com
+
+- app: AnyDesk
+  id: anydesk
+  available: true
+  category: work_collaboration
+  domains:
+    - dcmcmlbmpsc.anydesk.com
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.anydesk.com
+
+- app: Dropbox
+  id: dropbox
+  available: true
+  category: storage_application
+  domains:
+    - dcmcmlbmpsc.dropbox.com
+  root_domains:
+    - www.dropbox.com
+    - dropbox.com
+  upload_domains:
+    - dcmcmlbmpsc.dropbox.com
