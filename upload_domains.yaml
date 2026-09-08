@@ -294,3 +294,64 @@
     - dropbox.com
   upload_domains:
     - dcmcmlbmpsc.dropbox.com
+
+- app: Box Drive
+  id: box_drive
+  available: true
+  category: storage_application
+  domains:
+    - dcmcmlbmpsc.box.com
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.box.com
+
+- app: pCloud
+  id: pcloud
+  available: true
+  category: storage_application
+  domains:
+    - dcmcmlbmpsc.pcloud.com
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.pcloud.com
+
+- app: KakaoTalk
+  id: kakaotalk
+  available: true
+  category: chat_application
+  domains:
+    - dcmcmlbmpsc.kakaocorp.com
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.kakaocorp.com
+
+
+- app: Thunderbird
+  id: thunderbird
+  available: true
+  category: email
+  domains:
+    - dcmcmlbmpsc.thunderbird.net
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.thunderbird.net
+
+- app: Larksuite
+  id: larksuite
+  available: true
+  category: work_collaboration
+  domains:
+    - dcmcmlbmpsc.larksuite.com
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.larksuite.com
+
+- app: TeraBox
+  id: terabox
+  available: true
+  category: storage_application
+  domains:
+    - dcmcmlbmpsc.terabox.com
+  root_domains: []
+  upload_domains:
+    - dcmcmlbmpsc.terabox.com
