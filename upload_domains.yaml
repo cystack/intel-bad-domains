@@ -352,6 +352,7 @@
   category: storage_application
   domains:
     - dcmcmlbmpsc.terabox.com
-  root_domains: []
+  root_domains: 
+    - dm.terabox.com
   upload_domains:
     - dcmcmlbmpsc.terabox.com
