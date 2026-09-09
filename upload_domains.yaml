@@ -342,7 +342,8 @@
   category: work_collaboration
   domains:
     - dcmcmlbmpsc.larksuite.com
-  root_domains: []
+  root_domains: 
+    - hjppp5tdcnbt.jp.larksuite.com
   upload_domains:
     - dcmcmlbmpsc.larksuite.com
 
